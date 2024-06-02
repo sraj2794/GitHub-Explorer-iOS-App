@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+        <array key="SF-Mono-Medium.otf">
+            <string>SFMono-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TitleCollectionViewCell" id="gTV-IL-0wX" customClass="TitleCollectionViewCell" customModule="Voot_Task_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="240"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fRc-yc-6Ij">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="240"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fW6-y2-ehu" customClass="DownloadImageView" customModule="Voot_Task_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="140" height="180"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ddsdsdsdsddsdsdsdsdsdsds" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gh0-DH-ccO">
+                                <rect key="frame" x="0.0" y="184" width="138" height="40"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ddddsdsddddsdsdsdsdddsdsds" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbg-NH-rRK">
+                                <rect key="frame" x="0.0" y="226" width="138" height="33"/>
+                                <fontDescription key="fontDescription" name="SFMono-Medium" family="SF Mono" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jbg-NH-rRK" secondAttribute="trailing" constant="2" id="98A-zd-euA"/>
+                            <constraint firstItem="gh0-DH-ccO" firstAttribute="top" secondItem="fW6-y2-ehu" secondAttribute="bottom" constant="4" id="BaL-8m-GdQ"/>
+                            <constraint firstItem="jbg-NH-rRK" firstAttribute="leading" secondItem="fRc-yc-6Ij" secondAttribute="leading" id="I14-Y4-6E9"/>
+                            <constraint firstItem="gh0-DH-ccO" firstAttribute="leading" secondItem="fRc-yc-6Ij" secondAttribute="leading" id="IJO-ec-LSz"/>
+                            <constraint firstAttribute="trailing" secondItem="gh0-DH-ccO" secondAttribute="trailing" constant="2" id="Psf-u1-tb2"/>
+                            <constraint firstItem="jbg-NH-rRK" firstAttribute="top" secondItem="gh0-DH-ccO" secondAttribute="bottom" constant="2" id="Vp5-XH-igL"/>
+                            <constraint firstItem="fW6-y2-ehu" firstAttribute="height" secondItem="fRc-yc-6Ij" secondAttribute="height" multiplier="0.75" id="dFB-UY-yPy"/>
+                            <constraint firstAttribute="trailing" secondItem="fW6-y2-ehu" secondAttribute="trailing" id="dwT-an-0de"/>
+                            <constraint firstItem="fW6-y2-ehu" firstAttribute="top" secondItem="fRc-yc-6Ij" secondAttribute="top" id="gdL-OB-0go"/>
+                            <constraint firstItem="fW6-y2-ehu" firstAttribute="leading" secondItem="fRc-yc-6Ij" secondAttribute="leading" id="nwa-PD-0Hv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fRc-yc-6Ij" secondAttribute="bottom" id="GY7-Ly-HcF"/>
+                <constraint firstItem="fRc-yc-6Ij" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Qio-Y7-GrA"/>
+                <constraint firstItem="fRc-yc-6Ij" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fxa-eT-fYI"/>
+                <constraint firstAttribute="trailing" secondItem="fRc-yc-6Ij" secondAttribute="trailing" id="qXY-wt-LcD"/>
+            </constraints>
+            <connections>
+                <outlet property="containerView" destination="fRc-yc-6Ij" id="OI8-K8-w4a"/>
+                <outlet property="subTitleLabel" destination="jbg-NH-rRK" id="ed8-bn-f2J"/>
+                <outlet property="titleLabel" destination="gh0-DH-ccO" id="cVy-h6-q7E"/>
+                <outlet property="userImageView" destination="fW6-y2-ehu" id="k85-pu-2MG"/>
+            </connections>
+            <point key="canvasLocation" x="141" y="131"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
