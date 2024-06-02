@@ -6,7 +6,7 @@ Search: Users can enter a programming language of their choice.
 Repository List: The app fetches a list of popular repositories for the entered programming language from the GitHub API and presents it to the user. Users can sort repositories based on stars, forks, help-wanted-issues, or recent updates.
 Repository Details: Tapping on a repository in the list displays a detailed screen with information about the repository, including top contributors, top issues, and top comments.
 Unlimited Repository Display: The number of repositories users can see is not limited.
-Design Pattern: The app follows the MVVM/VIPER design pattern for better organization and scalability.
+Design Pattern: The app follows the MVVM design pattern for better organization and scalability.
 # Non-functional Requirements
 Compatibility: The app is optimized for iOS 13.0+ Xcode 13.0+ Swift 5.0+.
 Data Source: Data is fetched from the GitHub API to ensure accuracy and up-to-date information.
@@ -17,6 +17,14 @@ Implementation Details
 Design Principles: The app adheres to the SOLID principles for robust and maintainable code.
 Tests: Unit tests and UI tests are implemented to ensure the reliability and stability of the app.
 Code Readability: The codebase is written with readability and maintainability in mind, making it easy for developers to understand and modify.
+
+# Screenshots
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-02 at 15 44 40](https://github.com/sraj2794/GitHub-Explorer-iOS-App/assets/41502704/876787cf-cc52-4786-b9cb-fa8f3bd04ade)
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-02 at 15 44 45](https://github.com/sraj2794/GitHub-Explorer-iOS-App/assets/41502704/45c196ad-c8e8-4590-b13b-670d5b661cd6)
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-02 at 15 44 50](https://github.com/sraj2794/GitHub-Explorer-iOS-App/assets/41502704/52c2ce3c-e8aa-4911-963f-542f86878a55)
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-02 at 15 45 19](https://github.com/sraj2794/GitHub-Explorer-iOS-App/assets/41502704/10af9e38-ad70-46d2-a362-9c8fc20f7ab8)
+
+
 # How to Use
 To use the GitHub Explorer app:
 
