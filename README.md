@@ -8,7 +8,7 @@ Repository Details: Tapping on a repository in the list displays a detailed scre
 Unlimited Repository Display: The number of repositories users can see is not limited.
 Design Pattern: The app follows the MVVM/VIPER design pattern for better organization and scalability.
 # Non-functional Requirements
-Compatibility: The app is optimized for both phones and iPads.
+Compatibility: The app is optimized for iOS 13.0+ Xcode 13.0+ Swift 5.0+.
 Data Source: Data is fetched from the GitHub API to ensure accuracy and up-to-date information.
 UI/UX: The user interface and experience are designed to be intuitive and user-friendly.
 CollectionView: The repository list is displayed using a CollectionView, with each cell showing the avatar image, repository name, and description.
